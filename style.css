@@ -1,0 +1,41 @@
+.header_treehouse {
+    height: 50px;
+    width: 100%;
+    background: white;
+    display: table;
+}
+
+.header_icon {
+    background: red;
+    height: 50px;
+    width: 100px;
+    margin-left: 25px;
+}
+
+.header_treehouse img {
+    margin-left: 200px;
+    width: 150px;
+    height: 50px;
+}
+
+input[type=button] {    
+    display: block;
+    width: 75px;
+    margin: 0;
+    background-color: white;
+    border: none;
+    color: grey;
+    opacity: 0.6;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+input[type=button]:hover {
+    opacity: 1
+}
+          
+.button-wrapper {
+background: white;
+display: table-cell;
+vertical-align: middle;
+}
