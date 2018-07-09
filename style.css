@@ -234,7 +234,7 @@ h4 {
 .header_partners {
     height: 250px;
     width: 100%;
-    background:  white;
+    background: rgb(245,245,245);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -250,7 +250,7 @@ h4 {
 }
 
 .developers_img {
-    width: 150px;
+    width: 175px;
     height: 50px;
     margin: 25px;
 }
@@ -258,6 +258,44 @@ h4 {
     color: black;
     font-style: normal;
  }
+
+/* ultimo div con info */
+
+.header_info {
+    height: 175px;
+    width: 100%;
+    background:  white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.smallimg {
+    margin-top: 20px;
+    width: 180px;
+    height: 100px;;
+}
+
+.smalllogo {
+    margin-top: 30px;
+    width: 220px;
+    height: 75px;;
+} 
+
+li {
+    list-style-type: none;
+    text-align: left;
+    font-size: small;
+    color: grey;
+}
+
+.margin {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
 /* El font Gotham Rounded A para similitud con el sitio web proporcionado */
 
