@@ -75,6 +75,190 @@ vertical-align: middle;
     border-radius: 10px;
 }
 
+.divTitle {
+    width: 100%;
+    height: 50px;
+    background: #D3D3D3;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 25px;
+}
+
+.divSquare{
+    width: 48%; 
+    height: 20%; 
+    margin: 4px; 
+    border: 0px;  
+    float: left
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 12px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    border: 2px solid #A9A9A9;
+    background: #DCDCDC;
+    border-radius: 4px;
+}
+
+.button2 {
+    background: #43677D;
+    color: white;
+    border: 2px;
+    padding: 15px 32px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 80%;
+    margin-top: 5%;
+    font-family: GothamRounded;
+}
+
+/* tercer div */
+
+.header_courses {
+    height: 80px;
+    width: 100%;
+    background:  rgb(48, 56, 83);
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+}
+
+h3 {
+    color:  white;
+}
+
+
+
+/*cuarto div con el video */
+
+.header_video {
+    height: 400px;
+    width: 100%;
+    background:  white;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.header_video .div1 {
+    height: 100%;
+    width: 60%;
+}
+
+.header_video .div2 {
+    height: 100%;
+    width: 40%;
+}
+
+.video {
+    height: 70%;
+    width: 50%;
+    border: 0px;
+    margin-top: 75px;
+}
+
+.scripts {
+    margin-top: 75px;
+    text-align: left
+}
+
+h4 {
+    font-size: 25px;
+}
+
+.greytext {
+    color: grey;
+    margin-top: 0px;
+    padding-right: 100px;
+    width: 300px;
+    height: 100px;
+}
+
+/* el quinto div con las dos columnas de texto */
+
+
+.header_columns {
+    height: 450px;
+    width: 100%;
+    background:  white;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+    border-top: 0.5px solid grey;
+}
+
+.header_columns .div1 {
+    height: 100%;
+    width: 50%;
+}
+
+.header_columns .div2 {
+    height: 100%;
+    width: 50%;
+}
+
+.divleft {
+    margin-left: 40%;
+    text-align: left;
+    width: 70%;
+    height: 50%;
+}
+
+.divright {
+    margin-left: 20%;
+    text-align: left;
+    width: 70%;
+    height: 50%;
+}
+
+.col1 {
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+}
+
+/* sexto div */ 
+
+.header_partners {
+    height: 250px;
+    width: 100%;
+    background:  white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.imagepartners {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.developers_img {
+    width: 150px;
+    height: 50px;
+    margin: 25px;
+}
+ .blacktext {
+    color: black;
+    font-style: normal;
+ }
+
 /* El font Gotham Rounded A para similitud con el sitio web proporcionado */
 
 body {
@@ -87,6 +271,8 @@ h1 {
 
 h2 {
     color: white;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 @font-face {
